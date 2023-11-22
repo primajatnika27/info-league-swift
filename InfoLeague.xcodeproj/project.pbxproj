@@ -7,15 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5222A6F2B0DAE9200B3C57D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A5222A6E2B0DAE9200B3C57D /* Alamofire */; };
+		A5222A722B0DB1F800B3C57D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A5222A712B0DB1F800B3C57D /* Realm */; };
+		A5222A742B0DB1F800B3C57D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5222A732B0DB1F800B3C57D /* RealmSwift */; };
+		A5222A782B0DB30400B3C57D /* LeaguesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A772B0DB30400B3C57D /* LeaguesEntity.swift */; };
+		A5222A7A2B0DB3AC00B3C57D /* LocaleDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A792B0DB3AC00B3C57D /* LocaleDataSources.swift */; };
+		A5222A7D2B0DD90A00B3C57D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A5222A7C2B0DD90A00B3C57D /* RxCocoa */; };
+		A5222A7F2B0DD90A00B3C57D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5222A7E2B0DD90A00B3C57D /* RxSwift */; };
+		A5222A822B0DEAE600B3C57D /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A812B0DEAE600B3C57D /* ClubViewController.swift */; };
+		A5222A842B0DF2C100B3C57D /* ClubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A832B0DF2C100B3C57D /* ClubModel.swift */; };
+		A5222A862B0DF37600B3C57D /* ClubMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A852B0DF37600B3C57D /* ClubMapper.swift */; };
+		A5222A882B0DF66200B3C57D /* ClubInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A872B0DF66200B3C57D /* ClubInteractor.swift */; };
+		A5222A8B2B0DF9B400B3C57D /* ClubCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A8A2B0DF9B400B3C57D /* ClubCollectionViewCell.swift */; };
+		A5222A8E2B0DFBC900B3C57D /* ClubPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5222A8D2B0DFBC900B3C57D /* ClubPresenter.swift */; };
+		A53EFBA82B0B46EE00B2BF57 /* LeagueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53EFBA72B0B46EE00B2BF57 /* LeagueCollectionViewCell.swift */; };
+		A53EFBAF2B0B647900B2BF57 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53EFBAE2B0B647900B2BF57 /* ImageLoader.swift */; };
+		A53EFBB12B0B83BA00B2BF57 /* ClubResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53EFBB02B0B83BA00B2BF57 /* ClubResponse.swift */; };
 		A5A417D62B0A42E4004D1517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417D52B0A42E4004D1517 /* AppDelegate.swift */; };
 		A5A417D82B0A42E4004D1517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417D72B0A42E4004D1517 /* SceneDelegate.swift */; };
 		A5A417DA2B0A42E4004D1517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417D92B0A42E4004D1517 /* ViewController.swift */; };
 		A5A417DD2B0A42E4004D1517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A417DB2B0A42E4004D1517 /* Main.storyboard */; };
 		A5A417DF2B0A42E5004D1517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A417DE2B0A42E5004D1517 /* Assets.xcassets */; };
 		A5A417E22B0A42E5004D1517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A417E02B0A42E5004D1517 /* LaunchScreen.storyboard */; };
+		A5A417F32B0A4D2B004D1517 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417F22B0A4D2B004D1517 /* APICall.swift */; };
+		A5A417F62B0A4EC9004D1517 /* LeaguesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417F52B0A4EC9004D1517 /* LeaguesModel.swift */; };
+		A5A417FA2B0A4FD9004D1517 /* RemoteDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417F92B0A4FD9004D1517 /* RemoteDataSources.swift */; };
+		A5A417FD2B0A50A8004D1517 /* LeaguesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417FC2B0A50A8004D1517 /* LeaguesResponse.swift */; };
+		A5A418002B0A5286004D1517 /* CustomError+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A417FF2B0A5286004D1517 /* CustomError+Ext.swift */; };
+		A5A418022B0A543E004D1517 /* LeaguesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A418012B0A543E004D1517 /* LeaguesRepository.swift */; };
+		A5A418052B0A570F004D1517 /* LeaguesMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A418042B0A570F004D1517 /* LeaguesMapper.swift */; };
+		A5A418092B0A5AAF004D1517 /* LeaguesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A418082B0A5AAF004D1517 /* LeaguesInteractor.swift */; };
+		A5A8080D2B0A5D4300FF1E77 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8080C2B0A5D4300FF1E77 /* Injection.swift */; };
+		A5A808142B0A5FD600FF1E77 /* LeaguesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A808132B0A5FD600FF1E77 /* LeaguesPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5222A772B0DB30400B3C57D /* LeaguesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesEntity.swift; sourceTree = "<group>"; };
+		A5222A792B0DB3AC00B3C57D /* LocaleDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleDataSources.swift; sourceTree = "<group>"; };
+		A5222A812B0DEAE600B3C57D /* ClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
+		A5222A832B0DF2C100B3C57D /* ClubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubModel.swift; sourceTree = "<group>"; };
+		A5222A852B0DF37600B3C57D /* ClubMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubMapper.swift; sourceTree = "<group>"; };
+		A5222A872B0DF66200B3C57D /* ClubInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubInteractor.swift; sourceTree = "<group>"; };
+		A5222A8A2B0DF9B400B3C57D /* ClubCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5222A8D2B0DFBC900B3C57D /* ClubPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubPresenter.swift; sourceTree = "<group>"; };
+		A53EFBA72B0B46EE00B2BF57 /* LeagueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueCollectionViewCell.swift; sourceTree = "<group>"; };
+		A53EFBAE2B0B647900B2BF57 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A53EFBB02B0B83BA00B2BF57 /* ClubResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubResponse.swift; sourceTree = "<group>"; };
 		A5A417D22B0A42E4004D1517 /* InfoLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A417D52B0A42E4004D1517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A417D72B0A42E4004D1517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +61,16 @@
 		A5A417DE2B0A42E5004D1517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A417E12B0A42E5004D1517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A417E32B0A42E5004D1517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A417F22B0A4D2B004D1517 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		A5A417F52B0A4EC9004D1517 /* LeaguesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesModel.swift; sourceTree = "<group>"; };
+		A5A417F92B0A4FD9004D1517 /* RemoteDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSources.swift; sourceTree = "<group>"; };
+		A5A417FC2B0A50A8004D1517 /* LeaguesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesResponse.swift; sourceTree = "<group>"; };
+		A5A417FF2B0A5286004D1517 /* CustomError+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomError+Ext.swift"; sourceTree = "<group>"; };
+		A5A418012B0A543E004D1517 /* LeaguesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesRepository.swift; sourceTree = "<group>"; };
+		A5A418042B0A570F004D1517 /* LeaguesMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesMapper.swift; sourceTree = "<group>"; };
+		A5A418082B0A5AAF004D1517 /* LeaguesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesInteractor.swift; sourceTree = "<group>"; };
+		A5A8080C2B0A5D4300FF1E77 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		A5A808132B0A5FD600FF1E77 /* LeaguesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +78,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5222A742B0DB1F800B3C57D /* RealmSwift in Frameworks */,
+				A5222A722B0DB1F800B3C57D /* Realm in Frameworks */,
+				A5222A7F2B0DD90A00B3C57D /* RxSwift in Frameworks */,
+				A5222A7D2B0DD90A00B3C57D /* RxCocoa in Frameworks */,
+				A5222A6F2B0DAE9200B3C57D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5222A752B0DB2D400B3C57D /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				A5222A762B0DB2F300B3C57D /* Entity */,
+				A5222A792B0DB3AC00B3C57D /* LocaleDataSources.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		A5222A762B0DB2F300B3C57D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A5222A772B0DB30400B3C57D /* LeaguesEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A5222A802B0DEACF00B3C57D /* Club */ = {
+			isa = PBXGroup;
+			children = (
+				A5222A8C2B0DFBBD00B3C57D /* Presenter */,
+				A5222A892B0DF99E00B3C57D /* Cell */,
+				A5222A812B0DEAE600B3C57D /* ClubViewController.swift */,
+			);
+			path = Club;
+			sourceTree = "<group>";
+		};
+		A5222A892B0DF99E00B3C57D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5222A8A2B0DF9B400B3C57D /* ClubCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A5222A8C2B0DFBBD00B3C57D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A5222A8D2B0DFBC900B3C57D /* ClubPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A53EFBA62B0B46B600B2BF57 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A53EFBA72B0B46EE00B2BF57 /* LeagueCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		A5A417C92B0A42E4004D1517 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +159,169 @@
 		A5A417D42B0A42E4004D1517 /* InfoLeague */ = {
 			isa = PBXGroup;
 			children = (
-				A5A417D52B0A42E4004D1517 /* AppDelegate.swift */,
-				A5A417D72B0A42E4004D1517 /* SceneDelegate.swift */,
-				A5A417D92B0A42E4004D1517 /* ViewController.swift */,
+				A5A8080F2B0A5F7200FF1E77 /* Module */,
+				A5A8080E2B0A5F5A00FF1E77 /* Core */,
+				A5A417EA2B0A431D004D1517 /* App */,
+				A5A417E92B0A430C004D1517 /* Supporting Files */,
+			);
+			path = InfoLeague;
+			sourceTree = "<group>";
+		};
+		A5A417E92B0A430C004D1517 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				A5A417DB2B0A42E4004D1517 /* Main.storyboard */,
 				A5A417DE2B0A42E5004D1517 /* Assets.xcassets */,
 				A5A417E02B0A42E5004D1517 /* LaunchScreen.storyboard */,
 				A5A417E32B0A42E5004D1517 /* Info.plist */,
 			);
-			path = InfoLeague;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5A417EA2B0A431D004D1517 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A5A417D52B0A42E4004D1517 /* AppDelegate.swift */,
+				A5A417D72B0A42E4004D1517 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A5A417EC2B0A433A004D1517 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A5A418072B0A5A6A004D1517 /* UseCase */,
+				A5A417F42B0A4EB3004D1517 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A5A417ED2B0A4343004D1517 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5222A752B0DB2D400B3C57D /* Locale */,
+				A5A417F82B0A4FAC004D1517 /* Remote */,
+				A5A418012B0A543E004D1517 /* LeaguesRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A5A417EE2B0A4355004D1517 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				A5A8080C2B0A5D4300FF1E77 /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A5A417EF2B0A4D0D004D1517 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A5A418032B0A56FD004D1517 /* Mapper */,
+				A5A417FE2B0A5276004D1517 /* Extensions */,
+				A5A417F02B0A4D18004D1517 /* Network */,
+				A53EFBAE2B0B647900B2BF57 /* ImageLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A5A417F02B0A4D18004D1517 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A5A417F22B0A4D2B004D1517 /* APICall.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A5A417F42B0A4EB3004D1517 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5A417F52B0A4EC9004D1517 /* LeaguesModel.swift */,
+				A5222A832B0DF2C100B3C57D /* ClubModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5A417F82B0A4FAC004D1517 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				A5A417FB2B0A5096004D1517 /* Response */,
+				A5A417F92B0A4FD9004D1517 /* RemoteDataSources.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		A5A417FB2B0A5096004D1517 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				A5A417FC2B0A50A8004D1517 /* LeaguesResponse.swift */,
+				A53EFBB02B0B83BA00B2BF57 /* ClubResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		A5A417FE2B0A5276004D1517 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5A417FF2B0A5286004D1517 /* CustomError+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5A418032B0A56FD004D1517 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				A5A418042B0A570F004D1517 /* LeaguesMapper.swift */,
+				A5222A852B0DF37600B3C57D /* ClubMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		A5A418072B0A5A6A004D1517 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				A5A418082B0A5AAF004D1517 /* LeaguesInteractor.swift */,
+				A5222A872B0DF66200B3C57D /* ClubInteractor.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		A5A8080E2B0A5F5A00FF1E77 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A5A417EC2B0A433A004D1517 /* Domain */,
+				A5A417ED2B0A4343004D1517 /* Data */,
+				A5A417EE2B0A4355004D1517 /* DI */,
+				A5A417EF2B0A4D0D004D1517 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A5A8080F2B0A5F7200FF1E77 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A5222A802B0DEACF00B3C57D /* Club */,
+				A5A808102B0A5F8900FF1E77 /* Leagues */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A5A808102B0A5F8900FF1E77 /* Leagues */ = {
+			isa = PBXGroup;
+			children = (
+				A53EFBA62B0B46B600B2BF57 /* Cell */,
+				A5A808122B0A5FB300FF1E77 /* Presenter */,
+				A5A417D92B0A42E4004D1517 /* ViewController.swift */,
+			);
+			path = Leagues;
+			sourceTree = "<group>";
+		};
+		A5A808122B0A5FB300FF1E77 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A5A808132B0A5FD600FF1E77 /* LeaguesPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +340,13 @@
 			dependencies = (
 			);
 			name = InfoLeague;
+			packageProductDependencies = (
+				A5222A6E2B0DAE9200B3C57D /* Alamofire */,
+				A5222A712B0DB1F800B3C57D /* Realm */,
+				A5222A732B0DB1F800B3C57D /* RealmSwift */,
+				A5222A7C2B0DD90A00B3C57D /* RxCocoa */,
+				A5222A7E2B0DD90A00B3C57D /* RxSwift */,
+			);
 			productName = InfoLeague;
 			productReference = A5A417D22B0A42E4004D1517 /* InfoLeague.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +375,11 @@
 				Base,
 			);
 			mainGroup = A5A417C92B0A42E4004D1517;
+			packageReferences = (
+				A5222A6D2B0DAE9200B3C57D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A5222A702B0DB1F800B3C57D /* XCRemoteSwiftPackageReference "realm-swift" */,
+				A5222A7B2B0DD90A00B3C57D /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = A5A417D32B0A42E4004D1517 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +407,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A418022B0A543E004D1517 /* LeaguesRepository.swift in Sources */,
+				A5A417F62B0A4EC9004D1517 /* LeaguesModel.swift in Sources */,
+				A5222A8B2B0DF9B400B3C57D /* ClubCollectionViewCell.swift in Sources */,
+				A5222A822B0DEAE600B3C57D /* ClubViewController.swift in Sources */,
+				A53EFBB12B0B83BA00B2BF57 /* ClubResponse.swift in Sources */,
+				A53EFBAF2B0B647900B2BF57 /* ImageLoader.swift in Sources */,
+				A5A418002B0A5286004D1517 /* CustomError+Ext.swift in Sources */,
 				A5A417DA2B0A42E4004D1517 /* ViewController.swift in Sources */,
+				A5222A7A2B0DB3AC00B3C57D /* LocaleDataSources.swift in Sources */,
+				A5222A862B0DF37600B3C57D /* ClubMapper.swift in Sources */,
+				A5A417FA2B0A4FD9004D1517 /* RemoteDataSources.swift in Sources */,
+				A5222A842B0DF2C100B3C57D /* ClubModel.swift in Sources */,
+				A53EFBA82B0B46EE00B2BF57 /* LeagueCollectionViewCell.swift in Sources */,
 				A5A417D62B0A42E4004D1517 /* AppDelegate.swift in Sources */,
+				A5A808142B0A5FD600FF1E77 /* LeaguesPresenter.swift in Sources */,
+				A5A418092B0A5AAF004D1517 /* LeaguesInteractor.swift in Sources */,
+				A5A417FD2B0A50A8004D1517 /* LeaguesResponse.swift in Sources */,
+				A5222A882B0DF66200B3C57D /* ClubInteractor.swift in Sources */,
+				A5222A782B0DB30400B3C57D /* LeaguesEntity.swift in Sources */,
+				A5A417F32B0A4D2B004D1517 /* APICall.swift in Sources */,
+				A5222A8E2B0DFBC900B3C57D /* ClubPresenter.swift in Sources */,
+				A5A8080D2B0A5D4300FF1E77 /* Injection.swift in Sources */,
 				A5A417D82B0A42E4004D1517 /* SceneDelegate.swift in Sources */,
+				A5A418052B0A570F004D1517 /* LeaguesMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +578,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InfoLeague/Info.plist;
+				INFOPLIST_FILE = "InfoLeague/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +605,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InfoLeague/Info.plist;
+				INFOPLIST_FILE = "InfoLeague/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -356,6 +646,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5222A6D2B0DAE9200B3C57D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A5222A702B0DB1F800B3C57D /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A5222A7B2B0DD90A00B3C57D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5222A6E2B0DAE9200B3C57D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5222A6D2B0DAE9200B3C57D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A5222A712B0DB1F800B3C57D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5222A702B0DB1F800B3C57D /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A5222A732B0DB1F800B3C57D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5222A702B0DB1F800B3C57D /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		A5222A7C2B0DD90A00B3C57D /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5222A7B2B0DD90A00B3C57D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A5222A7E2B0DD90A00B3C57D /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5222A7B2B0DD90A00B3C57D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5A417CA2B0A42E4004D1517 /* Project object */;
 }
