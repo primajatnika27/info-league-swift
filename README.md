@@ -69,4 +69,5 @@ Info league application using Swift with Clean Architecture
     └── Info.plist
 ```
 # Screen shoot App
-![Simulator Screen Recording - iPhone 14 - 2023-11-22 at 19 31 26](https://github.com/primajatnika27/info-league-swift/assets/51253537/6dacff77-c824-4622-ad64-488c7095e703)
+![ezgif com-video-to-gif (1)](https://github.com/primajatnika27/info-league-swift/assets/51253537/6ab10f49-8fcf-4613-95b8-75d5c29bb13a)
+
